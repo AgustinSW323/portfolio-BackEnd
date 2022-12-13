@@ -4,4 +4,4 @@ function cuantoSale(juego:string, precio:number){
     return juego + " sale $" +((precio*IVA)+precio);
 }
 
-console.log(cuantoSale("Jurassic Park 1", 100));
+console.log(cuantoSale("Jurassic World Evolution 1", 1000));
